@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore the beautiful world</h2>
+            <div class="line"></div>
+            <h1>A wonderful world</h1>
+            
+        </div>
+    </header>
+    <!--Navbar-->
+  
+        <nav class="navbar">
+            <h1 class="logo"><span style="color: crimson;">Tra</span>vel</h1>
+            <ul class="nav-links">
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#tours"></a>Tours</li>
+                <li><a href="#explore"></a>Explore</li>
+                <li><a href="#about"></a>About</li>
+                <li><a href="#contact"></a>Contact</li>
+            </ul>
+            <div class="icon">
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            
+        </nav>
+   
+    <!--Header-->
+  
+    
+
+    <!--Events-->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            
+            <div class="col">
+                <img src="e2.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="e2.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+           
+        </div>
+    </section>
+    <!--Explore-->
+
+    <section class="explore">
+          <div class="explore-content">
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="#" class="ctn">Learn more</a>
+          </div>
+    </section>
+
+    <!--Tours-->
+    <section class="tours">
+        <div class="row">
+            <div class="content-col">
+                <h1>Upcoming Tours & Destination</h1>
+                <div class="line"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like</p>
+               
+            </div>
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="e1.jpg" alt="">
+                    <img src="e1.jpg" alt="">
+                    <img src="e1.jpg" alt="">
+                    <img src="e1.jpg" alt="">
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+<!--Custom script-->
+    <script>
+        const menuBtn = document.querySelector('.icon')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click' ,() =>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
